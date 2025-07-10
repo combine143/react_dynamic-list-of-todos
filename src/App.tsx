@@ -91,7 +91,6 @@ export const App: React.FC = () => {
           todo={selectedTodo}
           clicked={clicked}
           onClose={handleCloseModal}
-          selectedTodoId={selectedTodoId}
         />
       )}
     </>

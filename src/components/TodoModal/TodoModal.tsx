@@ -7,7 +7,6 @@ type Props = {
   todo: Todo;
   clicked: boolean;
   onClose: () => void;
-  selectedTodoId: number | null;
 };
 
 type Person = {
